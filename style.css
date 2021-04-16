@@ -1,0 +1,117 @@
+.header h1 {
+    color: white;
+    font-style: oblique;
+    top:-25px;
+    left:110px;
+    position: absolute;
+}
+.menu h1{
+    
+    text-align: center;
+    left: 450px;
+}
+h3 {
+    color: rgb(255,255,255);
+    top: 90px;
+  left: 150px;
+
+    font-size: 18px;
+    position: absolute;
+
+}
+.hamburger {
+    top:5px;
+    left:20px;
+    color:white;
+    position: absolute;
+}
+.about {
+    top:15px;
+    left:1100px;
+    color:white;
+    position: absolute;
+}
+.follow {
+    top:35px;
+    left:980px;
+    color:white;
+    position: absolute;
+}
+/* * {
+    border: solid;
+} */
+
+.header{
+   background-color:gray;
+    height: 40px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    left: 100px;
+    position: relative;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+}
+img{
+    border-radius: 25px;
+}
+.grid img{
+    border: 5px solid black;
+    border-radius: 42px;
+    margin-left: 60px;
+}
+
+.origami{
+    border-radius: 15px;
+    background-color:wheat;
+    margin-left: 110px;
+  
+    width: 350px;
+    font-family: cursive;
+}
+.panda{
+    border-radius: 15px;
+    background-color:wheat;
+    margin-left: 100px;
+   
+    width: 350px;
+    font-family: cursive;
+}
+.camel{
+    border-radius: 15px;
+    background-color: wheat;
+    margin-left:  100px;
+   
+    width: 350px;
+    font-family: cursive;
+}
+.bodyimg P{ 
+    position: absolute;
+   
+ top:50px;
+left: 520px;
+    text-align: center;
+    color: rgb(255,255,9);
+    font-family: fantasy;
+}
+.bodyimg img{ 
+    position: relative;
+ 
+left: 100px;
+}
+.bdy{
+    border-color: black;  
+  border-width: 3px;  
+  border-style: inset;
+  margin-left: 100px;
+  width: 85%;
+}
